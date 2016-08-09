@@ -21,5 +21,21 @@ $(document).ready(function() {
     $("body").addClass("dark");
   });
 
+  $("button#home").click(function(){
+    $("body").removeClass();
+    $("body").addClass("home");
+  })
+
+  // $("p1#highlight1").click(function(){
+  //   $("p").removeClass();
+  //   $("p").addClass("highlight1");
+  //   $("p").fadeToggle();
+  // })
+
+  $(".p1").click(function(){
+    // $(".p1").addClass("selected");
+    $(".p1").toggleClass("selected");
+
+  });
 
 });

@@ -56,3 +56,14 @@ h1 {
   background-color: #FFF8DC;
   color: #2F4F4F;
 }
+
+.home {
+  background-color: white;
+  color: black;
+}
+
+.selected {
+  border-style: solid;
+  border-width: medium;
+  background-color: yellow;
+}

@@ -2,8 +2,11 @@ img {
   width: 300px;
   height: 300px;
   border-radius: 50px;
-}
 
+}
+h1 {
+  text-align: center;
+}
 #sandcastle1 {
   display: none;
 }
@@ -41,4 +44,15 @@ img {
 
 .clickable3:hover {
   text-decoration: underline;
+}
+
+
+.dark {
+  background-color: #2F4F4F;
+  color: #FFF8DC;
+}
+
+.light {
+  background-color: #FFF8DC;
+  color: #2F4F4F;
 }
